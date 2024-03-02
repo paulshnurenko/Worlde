@@ -13,6 +13,8 @@
 		AF48E0922B938AEE00FC6A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF48E0902B938AEE00FC6A6D /* Main.storyboard */; };
 		AF48E0942B938AF000FC6A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF48E0932B938AF000FC6A6D /* Assets.xcassets */; };
 		AF48E0972B938AF000FC6A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF48E0952B938AF000FC6A6D /* LaunchScreen.storyboard */; };
+		AF48E0A72B938F2600FC6A6D /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48E0A62B938F2600FC6A6D /* KeyboardViewController.swift */; };
+		AF48E0A92B938F3700FC6A6D /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48E0A82B938F3700FC6A6D /* BoardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AF48E0932B938AF000FC6A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF48E0962B938AF000FC6A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF48E0982B938AF000FC6A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF48E0A62B938F2600FC6A6D /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		AF48E0A82B938F3700FC6A6D /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,33 @@
 		AF48E0892B938AED00FC6A6D /* Worlde */ = {
 			isa = PBXGroup;
 			children = (
-				AF48E08A2B938AED00FC6A6D /* AppDelegate.swift */,
-				AF48E08C2B938AED00FC6A6D /* SceneDelegate.swift */,
-				AF48E08E2B938AED00FC6A6D /* ViewController.swift */,
-				AF48E0902B938AEE00FC6A6D /* Main.storyboard */,
-				AF48E0932B938AF000FC6A6D /* Assets.xcassets */,
-				AF48E0952B938AF000FC6A6D /* LaunchScreen.storyboard */,
+				AF48E0A52B938F1000FC6A6D /* Other */,
+				AF48E0A42B938EFC00FC6A6D /* Core */,
 				AF48E0982B938AF000FC6A6D /* Info.plist */,
 			);
 			path = Worlde;
+			sourceTree = "<group>";
+		};
+		AF48E0A42B938EFC00FC6A6D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AF48E08E2B938AED00FC6A6D /* ViewController.swift */,
+				AF48E0A62B938F2600FC6A6D /* KeyboardViewController.swift */,
+				AF48E0A82B938F3700FC6A6D /* BoardViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AF48E0A52B938F1000FC6A6D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AF48E08A2B938AED00FC6A6D /* AppDelegate.swift */,
+				AF48E08C2B938AED00FC6A6D /* SceneDelegate.swift */,
+				AF48E0902B938AEE00FC6A6D /* Main.storyboard */,
+				AF48E0932B938AF000FC6A6D /* Assets.xcassets */,
+				AF48E0952B938AF000FC6A6D /* LaunchScreen.storyboard */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,8 @@
 				AF48E08F2B938AED00FC6A6D /* ViewController.swift in Sources */,
 				AF48E08B2B938AED00FC6A6D /* AppDelegate.swift in Sources */,
 				AF48E08D2B938AED00FC6A6D /* SceneDelegate.swift in Sources */,
+				AF48E0A72B938F2600FC6A6D /* KeyboardViewController.swift in Sources */,
+				AF48E0A92B938F3700FC6A6D /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
